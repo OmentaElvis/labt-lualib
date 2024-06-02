@@ -1,0 +1,27 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LuaLS/LLS-Addons/main/schemas/addon_config.schema.json",
+  "name": "LABt workspace",
+  "words": [
+    "labt",
+    "Labt"
+  ],
+  "files": [
+    "aapt.lua",
+    "pre.lua",
+    "dex.lua",
+    "compile.lua",
+    "labt.lua",
+    "bundle.lua",
+    "plugin.toml"
+  ],
+  "settings": {
+    "Lua.workspace.preloadFileSize": 5000,
+    "Lua.runtime.version": "Lua 5.4",
+    "Lua.diagnostics.globals": [
+      "labt",
+      "fs",
+      "zip",
+      "log"
+    ]
+  }
+}
